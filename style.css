@@ -1,0 +1,228 @@
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-SemiBold.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    font-family: "Gilroy", Arial, sans-serif;
+    background-color: #062461;
+}
+
+.login-container {
+    width: 40%;
+    min-height: 100vh;
+    background-color: #062461;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 30px;
+    border-radius: 0 0 0 15px;
+    border-right: 2px solid #00a8ff;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 350px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    display: block;
+    margin: 0 auto 22px;
+    border: 2px solid #526a92;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+    background-color: #112f6c;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    padding: 0 10px;
+}
+
+.input-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64b9e8;
+    margin-right: 10px;
+}
+
+.input-icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+.input-box input {
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-family: inherit;
+    font-size: 10px;
+}
+
+.input-box input::placeholder {
+    color: #a1b3d2;
+}
+
+.eye-icon {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: transparent;
+    color: #9aafd2;
+}
+
+.eye-icon svg {
+    width: 14px;
+    height: 14px;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 7px;
+    margin-bottom: 39px;
+}
+
+.forgot-password a {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+button {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.sign-in {
+    width: 100%;
+    height: 29px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2054bd;
+    color: white;
+    font-size: 12px;
+}
+
+.sign-in:hover {
+    background-color: #3474e9;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 18px 0;
+}
+
+.divider span {
+    height: 1px;
+    flex: 1;
+    background-color: #536b98;
+}
+
+.divider p {
+    font-size: 10px;
+    color: #b6c3da;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    height: 29px;
+    margin-bottom: 6px;
+    border: 1px solid #193976;
+    border-radius: 6px;
+    background-color: #112f6c;
+    color: #d4dff2;
+    font-size: 10px;
+}
+
+.social-button:hover {
+    background-color: #1b4187;
+}
+
+.social-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.facebook-icon {
+    color: white;
+    background-color: #4267a9;
+    border-radius: 50%;
+}
+
+.apple-icon {
+    background-color: white;
+    color: black;
+    padding: 1px;
+}
+
+.create-account {
+    text-align: center;
+    color: #a9bad8;
+    font-size: 10px;
+    margin-top: 8px;
+}
+
+.create-account a {
+    color: #5685d9;
+    text-decoration: none;
+}
+
+.create-account a:hover,
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+.side-image-container {
+    width: 60%;
+    min-height: 100vh;
+    overflow: hidden;
+    border-radius: 0 0 15px 0;
+}
+
+.side-image {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url("7853a384128734e29dde9d46a5cb14984fe7265f.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

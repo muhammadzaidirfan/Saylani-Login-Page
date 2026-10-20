@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-form">
+
+            <img src="1319c6179efeb78b3e656e251b18cefd1805d915.png"
+                 alt="Saylani Logo" class="logo">
+
+            <h1>Login into your Account</h1>
+
+            <form>
+                <div class="input-box">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M1.5 8.7v8.55a2.25 2.25 0 0 0 2.25 2.25h16.5a2.25 2.25 0 0 0 2.25-2.25V8.7l-8.9 5.48a3 3 0 0 1-3.2 0L1.5 8.7Z"/>
+                            <path d="M22.5 6.75A2.25 2.25 0 0 0 20.25 4.5H3.75A2.25 2.25 0 0 0 1.5 6.75v.16l9.69 5.98a1.5 1.5 0 0 0 1.62 0l9.69-5.98v-.16Z"/>
+                        </svg>
+                    </span>
+                    <input type="email" id="email"
+                           placeholder="iamchis_wallace@email.com">
+                </div>
+
+                <div class="input-box">
+                    <span class="input-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 24 24" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                  d="M12 1.5a5.25 5.25 0 0 0-5.25 5.25v3a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h10.5a3 3 0 0 0 3-3v-6a3 3 0 0 0-3-3v-3A5.25 5.25 0 0 0 12 1.5Zm3.75 8.25v-3a3.75 3.75 0 1 0-7.5 0v3h7.5Z"
+                                  clip-rule="evenodd"/>
+                        </svg>
+                    </span>
+                    <input type="password" id="password"
+                           placeholder="Password">
+                    <span class="eye-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 4.5c-4.9 0-9.1 3.2-10.8 7.5 1.7 4.3 5.9 7.5 10.8 7.5s9.1-3.2 10.8-7.5C21.1 7.7 16.9 4.5 12 4.5Zm0 12a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9Z"/>
+                            <path d="M12 14.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                        </svg>
+                    </span>
+                </div>
+
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="sign-in">Sign in</button>
+
+                <div class="divider">
+                    <span></span>
+                    <p>or</p>
+                    <span></span>
+                </div>
+
+                <button type="button" class="social-button">
+                    <svg class="social-icon" viewBox="0 0 48 48"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#4285F4" d="M43.6 24.5c0-1.4-.1-2.8-.4-4.1H24v7.8h11a9.4 9.4 0 0 1-4.1 6.2v5.1h6.6c3.9-3.6 6.1-8.8 6.1-15Z"/>
+                        <path fill="#34A853" d="M24 44c5.5 0 10.1-1.8 13.5-4.9l-6.6-5.1c-1.8 1.2-4.1 2-6.9 2-5.3 0-9.8-3.6-11.4-8.4H5.8v5.3A20 20 0 0 0 24 44Z"/>
+                        <path fill="#FBBC05" d="M12.6 27.6a12 12 0 0 1 0-7.2v-5.3H5.8a20 20 0 0 0 0 17.8l6.8-5.3Z"/>
+                        <path fill="#EA4335" d="M24 12c3 0 5.7 1 7.8 3.1l5.8-5.8A19.4 19.4 0 0 0 24 4 20 20 0 0 0 5.8 15.1l6.8 5.3C14.2 15.6 18.7 12 24 12Z"/>
+                    </svg>
+                    Sign in with Google
+                </button>
+
+                <button type="button" class="social-button">
+                    <svg class="social-icon facebook-icon"
+                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor"
+                              d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.8-.1-1.7-.2-2.6-.2-2.6 0-4.4 1.6-4.4 4.5V10H7v3h2.8v8h3.7Z"/>
+                    </svg>
+                    Sign in with Facebook
+                </button>
+
+                <button type="button" class="social-button">
+                    <svg class="social-icon apple-icon"
+                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="currentColor"
+                              d="M16.6 12.8c0-2.2 1.8-3.3 1.9-3.4a4.2 4.2 0 0 0-3.3-1.8c-1.4-.2-2.8.9-3.6.9s-2-.9-3.2-.9a4.8 4.8 0 0 0-4 2.5c-1.7 3-.4 7.5 1.3 9.9.8 1.2 1.7 2.4 3 2.4 1.2 0 1.7-.8 3.2-.8s2 .8 3.2.8c1.2 0 2.1-1.2 2.9-2.3a10.6 10.6 0 0 0 1.3-2.7 4 4 0 0 1-2.7-4.6ZM14.2 5.7a4 4 0 0 0 1-3.6 4.3 4.3 0 0 0-2.9 1.6 3.8 3.8 0 0 0-1 3.5 3.5 3.5 0 0 0 2.9-1.5Z"/>
+                    </svg>
+                    Sign in with Apple
+                </button>
+
+                <p class="create-account">
+                    Don't have an account?
+                    <a href="#">Create Account</a>
+                </p>
+            </form>
+
+        </div>
+    </div>
+
+    <div class="side-image-container">
+        <div class="side-image"></div>
+    </div>
+
+</body>
+</html>
